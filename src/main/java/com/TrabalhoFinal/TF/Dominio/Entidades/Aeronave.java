@@ -14,14 +14,12 @@ public class Aeronave {
   private int id;
   private String prefixo;
   private Float velocidade;
-  private Integer autonomy;
 
   public Aeronave() {}
 
-  public Aeronave(String prefixo, Float velocidade, Integer autonomy) {
+  public Aeronave(String prefixo, Float velocidade) {
     this.prefixo = prefixo;
     this.velocidade = velocidade;
-    this.autonomy = autonomy;
   }
 
   public int getId() {
@@ -32,8 +30,5 @@ public class Aeronave {
   }
   public Float getVelocidade() {
     return velocidade;
-  }
-  public Integer getAutonomy() {
-    return autonomy;
   }
 }

@@ -33,7 +33,7 @@ public class Rota {
   }
 
   @OneToMany(fetch = FetchType.EAGER,
-             mappedBy = "rota", 
+             mappedBy = "rotas", 
              cascade = CascadeType.ALL)
   private List<RotaOcupada> rotaOcupada;
 
